@@ -21,7 +21,7 @@
 | # | Item | Status | Evidência (link) |
 | :---- | :---- | :---- | :---- |
 | 1 | Repositório criado com README, estrutura de pastas e CODEOWNERS | ☐ | `<link do repo>` |
-| 2 | Estratégia de branches definida conforme o documento de Gitflow da organização | ☐ | `<...>` |
+| 2 | Estratégia de branches definida e documentada no README (ex.: Gitflow, trunk-based) | ☐ | `<...>` |
 | 3 | Pipeline CI/CD com build automatizado | ☐ | `<link do pipeline>` |
 | 4 | Secrets scan no pipeline | ☐ | `<...>` |
 | 5 | Lint e execução de testes no pipeline | ☐ | `<...>` |
@@ -32,7 +32,7 @@
 | 10 | Verificado: **nenhum segredo em repositório, log ou imagem** | ☐ | `<...>` |
 | 11 | Ambientes dev/staging/prod provisionados ou com plano de provisionamento | ☐ | `<...>` |
 | 12 | Tagging de custo (FinOps) aplicado aos recursos | ☐ | `<...>` |
-| 13 | Convenções de código e padrão de issues da organização referenciados no README | ☐ | `<...>` |
+| 13 | Convenções de código e formato de issues do projeto referenciados no README | ☐ | `<...>` |
 
 ## Aprovação
 

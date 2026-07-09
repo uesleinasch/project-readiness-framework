@@ -88,9 +88,9 @@ O Day Zero Playbook é organizado internamente em **Capítulos** (1-10, partes d
 | Segurança: configurações obrigatórias | Em elaboração |
 | Desenvolvimento & Code Review · Deploy & Operação · Encerramento & Handover | Roadmap (pós–Day Zero) |
 
-## Dependências externas
+## Fora do escopo
 
-O Day Zero Playbook referencia documentos próprios da organização (não incluídos aqui): estratégia de branches (Gitflow), padrão de issues (HU/Task/Bug) e processo de QA/encerramento de bugs. Enquanto o companheiro de Segurança não é publicado, vale o **baseline mínimo de segurança** do Capítulo 7 do documento principal.
+O que vem depois do Go/No-Go — branches, issues, code review, QA e encerramento — fica **fora do escopo** do Day Zero Playbook e é definido pelas **convenções da própria equipe**; o playbook só pede que sejam registradas no Bootstrap Técnico. Segurança tem tratamento próprio: enquanto o companheiro de Segurança não é publicado, vale o **baseline mínimo de segurança** do Capítulo 7 do documento principal.
 
 ## Versionamento e contribuição
 
