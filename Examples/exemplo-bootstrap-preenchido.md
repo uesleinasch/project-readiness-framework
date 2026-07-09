@@ -18,7 +18,7 @@
 | # | Item | Status | Evidência (link) |
 | :---- | :---- | :---- | :---- |
 | 1 | Repositório criado com README, estrutura de pastas e CODEOWNERS | ☑ Concluído | `git.empresa.com/plataformas/sap-pecas` |
-| 2 | Estratégia de branches definida conforme o documento de Gitflow da organização | ☑ Concluído | README §Branching (link para o Gitflow corporativo) |
+| 2 | Estratégia de branches definida e documentada no README (ex.: Gitflow, trunk-based) | ☑ Concluído | README §Branching (Gitflow adotado pela equipe) |
 | 3 | Pipeline CI/CD com build automatizado | ☑ Concluído | `.github/workflows/ci.yml` (run #42) |
 | 4 | Secrets scan no pipeline | ☑ Concluído | Gitleaks no estágio `security` (run #42) |
 | 5 | Lint e execução de testes no pipeline | ☑ Concluído | ESLint + Jest no estágio `quality` (run #42) |
@@ -29,7 +29,7 @@
 | 10 | Verificado: **nenhum segredo em repositório, log ou imagem** | ☑ Concluído | Gitleaks histórico completo limpo (run #42) |
 | 11 | Ambientes dev/staging/prod provisionados ou com plano de provisionamento | ☑ Concluído | Terraform `infra/`: dev e staging ativos; prod planejado para a semana do piloto |
 | 12 | Tagging de custo (FinOps) aplicado aos recursos | ☑ Concluído | Tags `projeto=sap-pecas`, `centro-custo=pos-vendas` em todos os módulos Terraform |
-| 13 | Convenções de código e padrão de issues da organização referenciados no README | ☑ Concluído | README §Contribuindo |
+| 13 | Convenções de código e formato de issues do projeto referenciados no README | ☑ Concluído | README §Contribuindo |
 
 ## Aprovação
 

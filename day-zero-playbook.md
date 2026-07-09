@@ -41,11 +41,11 @@ As etapas a seguir podem ser executadas por times diferentes (interno, contratad
 
 ## 1.3 Fronteira deste documento
 
-Este documento cobre **da concepção do negócio até a autorização de início do desenvolvimento** (gate Go/No-Go). O que vem depois (padrões de código, fluxo de branches, code review, encerramento) é tratado em documentos próprios da organização, que **devem ser referenciados** ao final do Bootstrap Técnico:
+Este documento cobre **da concepção do negócio até a autorização de início do desenvolvimento** (gate Go/No-Go). O que vem depois (padrões de código, fluxo de branches, code review, encerramento) fica **fora do escopo do Day Zero Playbook** e é governado pelas **convenções da própria equipe**. No Bootstrap Técnico, registre qual convenção o projeto adota para cada tema:
 
-- **Estratégia de branches:** documento de Gitflow da organização.
-- **Padrão de issues (HU/Task/Bug):** guia de escrita de issues da organização.
-- **Verificação e encerramento de bugs:** processo de QA/encerramento da organização.
+- **Estratégia de branches:** a estratégia adotada pela equipe (ex.: Gitflow, trunk-based, GitHub Flow).
+- **Padrão de issues:** o formato adotado pela equipe (ex.: HU/Task/Bug).
+- **Verificação e encerramento de bugs:** o processo de QA e fechamento de bugs adotado pela equipe.
 - **Segurança (configurações obrigatórias):** companheiro de Segurança, *em elaboração*. Até ele existir, vale o baseline mínimo do Capítulo 7 deste documento.
 
 ## 1.4 O Workflow em um diagrama
@@ -349,12 +349,12 @@ Esta etapa transforma a arquitetura aprovada em um ambiente pronto para desenvol
 | Item | Descrição |
 | :---- | :---- |
 | **Repositório** | Repositório criado, com README, estrutura de pastas e CODEOWNERS. |
-| **Estratégia de Branches** | Gitflow definido conforme o documento de Gitflow da organização. |
+| **Estratégia de Branches** | Estratégia de branches definida e documentada no repositório (ex.: Gitflow, trunk-based). |
 | **Pipeline CI/CD** | Build automatizado + **secrets scan** + lint + execução de testes. |
 | **Gestão de Segredos** | Cofre de segredos definido (ex: AWS Secrets Manager / Parameter Store). **Nenhum segredo em repositório ou imagem.** |
 | **Análise de Segurança no Pipeline** | SAST, SCA (dependências) e, quando aplicável, DAST; ver Capítulo 7. |
 | **Ambientes** | dev/staging/prod provisionados ou com plano de provisionamento e tagging de custo (FinOps). |
-| **Convenções de Código** | Referência ao padrão de código e ao padrão de issues da organização. |
+| **Convenções de Código** | Padrão de código e formato de issues definidos para o projeto (linter/formatter configurados). |
 
 | ✅ DoD da Etapa 5 (Bootstrap) | *Repositório e gitflow operacionais; pipeline executa build + secrets scan + SAST/SCA; segredos fora do código; ambientes provisionados ou planejados com tagging de custo.* |
 | :---: | :---- |
