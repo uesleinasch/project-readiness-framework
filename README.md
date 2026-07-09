@@ -1,12 +1,12 @@
-# Project Readiness Framework (PRF)
+# Day Zero Playbook
 
-**Seção 1: Antes de Começar** · v1.0 · Owner: Time de Arquitetura · Revisão trimestral
+*Clear the gates before your first line of code.* · v1.0 · Owner: Time de Arquitetura · Revisão trimestral
 
-Framework de prontidão de projetos de software. Define os **artefatos obrigatórios** e o **workflow de aprovação** que todo projeto percorre **antes de qualquer linha de código**, da concepção do negócio até a autorização formal de início do desenvolvimento (gate Go/No-Go).
+Playbook de prontidão de projetos de software. Define os **artefatos obrigatórios** e o **workflow de aprovação** que todo projeto percorre **antes de qualquer linha de código**, da concepção do negócio até a autorização formal de início do desenvolvimento (gate Go/No-Go).
 
 ## Por que ele existe
 
-Projetos que começam a codar sem alinhamento formal entre negócio e tecnologia acumulam retrabalho, decisões sem dono e requisitos que ninguém testa. O PRF ataca isso com três mecanismos:
+Projetos que começam a codar sem alinhamento formal entre negócio e tecnologia acumulam retrabalho, decisões sem dono e requisitos que ninguém testa. O Day Zero Playbook ataca isso com três mecanismos:
 
 - **Gates objetivos**: cada etapa tem critério de entrada (DoR) e de aceite (DoD) verificáveis; aprovação não é subjetiva.
 - **Segregação de funções**: quem produz um artefato nunca é quem o aprova.
@@ -38,13 +38,13 @@ flowchart TD
 
 A especificação completa está no documento principal: princípios, papéis e RACI, fluxo de aprovação e reprovação, estimativa progressiva, gestão de mudanças, métricas do processo, baseline de segurança, tailoring e glossário.
 
-📘 **[`project-readiness-framework.md`](./project-readiness-framework.md)**
+📘 **[`day-zero-playbook.md`](./day-zero-playbook.md)**
 
 ## O que tem neste repositório
 
 ```
 .
-├── project-readiness-framework.md   # O framework (documento normativo)
+├── day-zero-playbook.md             # O playbook (documento normativo)
 ├── CHANGELOG.md                     # Histórico de versões
 ├── Templates/                       # Um template por artefato; copie e preencha
 └── Examples/                        # Um exemplo preenchido por template
@@ -69,7 +69,7 @@ Cada artefato do workflow tem um **template** pronto para copiar e um **exemplo 
 
 **Se você vai conduzir um projeto novo:**
 
-1. Leia o [documento principal](./project-readiness-framework.md), em especial os Capítulos 3 (quem produz e quem aprova cada etapa) e 8 (qual trilha seu projeto segue, conforme a criticidade).
+1. Leia o [documento principal](./day-zero-playbook.md), em especial os Capítulos 3 (quem produz e quem aprova cada etapa) e 8 (qual trilha seu projeto segue, conforme a criticidade).
 2. Para cada etapa, copie o template correspondente, preencha os campos `<...>` e remova as instruções em *itálico*. Use o exemplo preenchido como gabarito.
 3. Só avance de etapa com o **DoD atendido e a aprovação formal registrada** no Repositório de Documentação (a ferramenta acordada entre as partes no início do projeto, ex: Confluence, SharePoint, wiki do Git) ou por e-mail com o solicitante.
 4. O **Go/No-Go** (Etapa 6) autoriza (ou bloqueia) o início do desenvolvimento. Todos os itens obrigatórios (e condicionais aplicáveis) precisam estar concluídos, com evidência.
@@ -80,18 +80,18 @@ Cada artefato do workflow tem um **template** pronto para copiar e um **exemplo 
 
 ## Vocabulário
 
-O PRF é dividido em **Seções** (módulos do framework). Este repositório contém a **Seção 1: Antes de Começar**, organizada internamente em **Capítulos** (1-10, partes do documento) e **Etapas** (0-6, passos do workflow).
+O Day Zero Playbook é organizado internamente em **Capítulos** (1-10, partes do documento) e **Etapas** (0-6, passos do workflow). Ele cobre a prontidão **pré-desenvolvimento**; os temas seguintes (segurança, deploy, code review, encerramento) são companheiros no roadmap, tratados fora deste playbook.
 
-| Seção | Título | Status |
-| :---- | :---- | :---- |
-| 1 | **Antes de Começar** (este repositório) | Publicada (v1.0) |
-| 2 | Segurança: configurações obrigatórias | Em elaboração |
-| 3+ | Desenvolvimento & Code Review · Deploy & Operação · Encerramento & Handover | Roadmap |
+| Escopo | Status |
+| :---- | :---- |
+| **Day Zero Playbook** — prontidão pré-desenvolvimento (este repositório) | Publicado (v1.0) |
+| Segurança: configurações obrigatórias | Em elaboração |
+| Desenvolvimento & Code Review · Deploy & Operação · Encerramento & Handover | Roadmap (pós–Day Zero) |
 
 ## Dependências externas
 
-O framework referencia documentos próprios da organização (não incluídos aqui): estratégia de branches (Gitflow), padrão de issues (HU/Task/Bug) e processo de QA/encerramento de bugs. Enquanto a Seção 2 (Segurança) não é publicada, vale o **baseline mínimo de segurança** do Capítulo 7 do documento principal.
+O Day Zero Playbook referencia documentos próprios da organização (não incluídos aqui): estratégia de branches (Gitflow), padrão de issues (HU/Task/Bug) e processo de QA/encerramento de bugs. Enquanto o companheiro de Segurança não é publicado, vale o **baseline mínimo de segurança** do Capítulo 7 do documento principal.
 
 ## Versionamento e contribuição
 
-O framework usa versionamento semântico próprio; ver [`CHANGELOG.md`](./CHANGELOG.md). O documento é revisado trimestralmente pelo Time de Arquitetura, alimentado pelas métricas do processo (Capítulo 4.4). Sugestões de mudança: abra uma issue ou procure o Time de Arquitetura.
+O Day Zero Playbook usa versionamento semântico próprio; ver [`CHANGELOG.md`](./CHANGELOG.md). O documento é revisado trimestralmente pelo Time de Arquitetura, alimentado pelas métricas do processo (Capítulo 4.4). Sugestões de mudança: abra uma issue ou procure o Time de Arquitetura.

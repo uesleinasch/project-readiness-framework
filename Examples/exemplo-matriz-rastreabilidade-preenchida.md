@@ -1,7 +1,7 @@
 # Exemplo Preenchido: Matriz de Rastreabilidade
 
 > **Projeto fictício** para servir de referência de preenchimento do [`template-matriz-rastreabilidade.md`](../Templates/template-matriz-rastreabilidade.md). Mesmo projeto de referência dos demais exemplos (SAP-Peças).
-> Regra do framework: **nenhum RF/RNF sem componente nem sem caso de teste.** Toda linha abaixo está completa. É isso que o item 11 do Go/No-Go verifica.
+> Regra do playbook: **nenhum RF/RNF sem componente nem sem caso de teste.** Toda linha abaixo está completa. É isso que o item 11 do Go/No-Go verifica.
 
 | RF/RNF | Descrição | Componente (HLD/LLD) | Endpoint / API | Caso de Teste | Critério de Aceite / SLO |
 | :---- | :---- | :---- | :---- | :---- | :---- |

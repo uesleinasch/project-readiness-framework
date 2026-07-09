@@ -1,6 +1,6 @@
 # Template: High-Level Design (HLD)
 
-> **Etapa 2 do Project Readiness Framework (PRF).** Produtor: Arquiteto / Tech Lead. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
+> **Etapa 2 do Day Zero Playbook.** Produtor: Arquiteto / Tech Lead. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
 > Obrigatórios os diagramas C4 **L1 (Context)** e **L2 (Containers)**.
 > DoD: C4 L1/L2 presentes, stack justificada, análise build vs buy registrada, integrações mapeadas, estratégias de segurança/deploy/observabilidade/DR definidas em nível macro, ADRs registrados, riscos técnicos atualizados, reestimativa registrada.
 

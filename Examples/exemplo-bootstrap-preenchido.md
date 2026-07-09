@@ -1,7 +1,7 @@
 # Exemplo Preenchido: Checklist de Bootstrap Técnico
 
 > **Projeto fictício** para servir de referência de preenchimento do [`template-bootstrap.md`](../Templates/template-bootstrap.md). Mesmo projeto de referência dos demais exemplos (SAP-Peças).
-> Note que a etapa iniciou logo após a aprovação do HLD (17/06), **em paralelo** ao LLD, como o framework permite.
+> Note que a etapa iniciou logo após a aprovação do HLD (17/06), **em paralelo** ao LLD, como o playbook permite.
 
 ## Identificação
 

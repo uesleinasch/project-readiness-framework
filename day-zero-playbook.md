@@ -1,13 +1,13 @@
-| Project Readiness Framework (PRF) · Seção 1 · Antes de Começar · *Artefatos, Documentação e Workflow de Aprovação* · v1.0 · Owner: Time de Arquitetura · Revisão: trimestral · Última atualização: Junho 2026 |
+| Day Zero Playbook · Artefatos, Documentação e Workflow de Aprovação · v1.0 · Owner: Time de Arquitetura · Revisão: trimestral · Última atualização: Junho 2026 |
 | :---- |
 
-> **Como ler este documento.** O PRF é organizado em **Seções**, que são os módulos grandes: a Seção 1 é Antes de Começar, a Seção 2 é Segurança, e assim por diante. **Este documento é a Seção 1.** Internamente ele se divide em **Capítulos** (1 a 10) e descreve as **Etapas** (0 a 6) do workflow. Referências do tipo "Capítulo 7" apontam para dentro deste documento; "Seção 2 do PRF" aponta para outro módulo do framework; "Etapa 3" aponta para uma etapa do workflow.
+> **Como ler este documento.** O Day Zero Playbook se divide internamente em **Capítulos** (1 a 10) e descreve as **Etapas** (0 a 6) do workflow — tudo o que um projeto resolve **antes da primeira linha de código**. Referências do tipo "Capítulo 7" apontam para dentro deste documento; "Etapa 3" aponta para uma etapa do workflow. Temas posteriores (segurança, deploy, code review, encerramento) são **companheiros no roadmap**, tratados fora deste playbook.
 
 # Capítulo 1: Visão Geral
 
-Esta seção define os artefatos obrigatórios e o workflow que todo projeto deve seguir **antes de qualquer linha de código ser escrita**. O objetivo é simples de enunciar e difícil de sustentar: negócio e tecnologia alinhados, cada decisão com rastro, e menos retrabalho nascido de projeto começado às pressas.
+Este playbook define os artefatos obrigatórios e o workflow que todo projeto deve seguir **antes de qualquer linha de código ser escrita**. O objetivo é simples de enunciar e difícil de sustentar: negócio e tecnologia alinhados, cada decisão com rastro, e menos retrabalho nascido de projeto começado às pressas.
 
-As etapas a seguir podem ser executadas por times diferentes (interno, contratado ou time parceiro). Por isso, este framework adota duas garantias inegociáveis:
+As etapas a seguir podem ser executadas por times diferentes (interno, contratado ou time parceiro). Por isso, este playbook adota duas garantias inegociáveis:
 
 - **Pacote de handoff autossuficiente:** o artefato de cada etapa deve ser completo o bastante para que o time da etapa seguinte continue **sem depender do time anterior**.
 - **Segregação de funções:** quem **produz** um artefato nunca é quem o **aprova**.
@@ -20,7 +20,7 @@ As etapas a seguir podem ser executadas por times diferentes (interno, contratad
 | Capítulo | Conteúdo |
 | :---- | :---- |
 | **1** | Visão Geral, índice, roadmap e diagrama do workflow |
-| **2** | Princípios do Framework |
+| **2** | Princípios do Playbook |
 | **3** | Papéis e Responsabilidades (glossário de papéis + RACI) |
 | **4** | Workflow Geral (fluxo de aprovação, estimativa, mudanças) |
 | **Etapas 0-6** | Detalhe de cada etapa (Discovery, BRD, HLD, LLD/TDD, SAD, Bootstrap, Go/No-Go) |
@@ -31,13 +31,13 @@ As etapas a seguir podem ser executadas por times diferentes (interno, contratad
 | **9** | Resumo de Artefatos e Onde Armazenar |
 | **10** | Glossário e Acrônimos |
 
-## 1.2 Roadmap do PRF (Seções do framework)
+## 1.2 Roadmap (companheiros futuros)
 
-| Seção | Título | Status |
-| :---- | :---- | :---- |
-| **1** | **Antes de Começar** (este documento) | Publicada (v1.0) |
-| **2** | Segurança: configurações obrigatórias | Em elaboração |
-| **3+** | Desenvolvimento & Code Review · Deploy & Operação · Encerramento & Handover | Roadmap (planejadas) |
+| Escopo | Status |
+| :---- | :---- |
+| **Day Zero Playbook** — prontidão pré-desenvolvimento (este documento) | Publicado (v1.0) |
+| Segurança: configurações obrigatórias | Em elaboração |
+| Desenvolvimento & Code Review · Deploy & Operação · Encerramento & Handover | Roadmap (pós–Day Zero) |
 
 ## 1.3 Fronteira deste documento
 
@@ -46,7 +46,7 @@ Este documento cobre **da concepção do negócio até a autorização de iníci
 - **Estratégia de branches:** documento de Gitflow da organização.
 - **Padrão de issues (HU/Task/Bug):** guia de escrita de issues da organização.
 - **Verificação e encerramento de bugs:** processo de QA/encerramento da organização.
-- **Segurança (configurações obrigatórias):** Seção 2 do PRF (Segurança), *em elaboração*. Até a Seção 2 existir, vale o baseline mínimo do Capítulo 7 deste documento.
+- **Segurança (configurações obrigatórias):** companheiro de Segurança, *em elaboração*. Até ele existir, vale o baseline mínimo do Capítulo 7 deste documento.
 
 ## 1.4 O Workflow em um diagrama
 
@@ -70,7 +70,7 @@ flowchart TD
     GO -- sim --> DEV["✅ Início do Desenvolvimento"]
 ```
 
-# Capítulo 2: Princípios do Framework
+# Capítulo 2: Princípios do Playbook
 
 | # | Princípio | O que significa na prática |
 | :---- | :---- | :---- |
@@ -145,7 +145,7 @@ Alterações de escopo após qualquer aprovação exigem: (a) atualização dos 
 
 ## 4.4 Métricas do Processo
 
-Um framework que não se mede não evolui. O Time de Arquitetura acompanha, por trimestre:
+Um playbook que não se mede não evolui. O Time de Arquitetura acompanha, por trimestre:
 
 | Métrica | O que indica |
 | :---- | :---- |
@@ -248,7 +248,7 @@ O HLD traduz os requisitos de negócio em uma visão técnica de alto nível: ar
 
 ## Modelo C4: Níveis Exigidos no HLD
 
-O Modelo C4 (Context, Containers, Components, Code) é o padrão de diagramação adotado neste framework. No HLD são obrigatórios os níveis 1 e 2.
+O Modelo C4 (Context, Containers, Components, Code) é o padrão de diagramação adotado neste playbook. No HLD são obrigatórios os níveis 1 e 2.
 
 | Nível | Nome | O que mostra | Etapa | Ferramenta sugerida |
 | :---- | :---- | :---- | :---- | :---- |
@@ -314,7 +314,7 @@ O SAD é o **documento vivo** que consolida as decisões de HLD e LLD num regist
 | **3** | **Decisões Arquiteturais (ADR)** | Consolidação dos ADRs registrados nas Etapas 2-3. | HLD/LLD |
 | **4** | **Visão Arquitetural** | C4 L1, L2 e L3; componentes, responsabilidades e interações. | HLD/LLD |
 | **5** | **Infraestrutura e Deploy** | Topologia de nuvem, pipeline CI/CD, estratégia de deploy (blue/green, canary, rolling). | HLD/Bootstrap |
-| **6** | **Segurança** | Modelo de ameaças e controles aplicados (Capítulo 7 / Seção 2 do PRF: Segurança). | HLD/LLD |
+| **6** | **Segurança** | Modelo de ameaças e controles aplicados (Capítulo 7 / companheiro de Segurança). | HLD/LLD |
 | **7** | **Observabilidade** | Logs, métricas, traces, alertas, dashboards e SLIs/SLOs. | HLD/LLD |
 | **8** | **Estratégia de Dados** | Modelo de dados, classificação, retenção, backup, compliance LGPD. | BRD/LLD |
 | **9** | **Riscos e Mitigações** | Consolidação do Registro de Riscos (Capítulo 5). | Todas |
@@ -420,7 +420,7 @@ Garante que todo requisito foi desenhado e será testado (P3). Preenchida ao lon
 
 # Capítulo 7: Baseline Mínimo de Segurança
 
-*Vigente até a Seção 2 do PRF (Segurança) ser publicada. Quando a Seção 2 existir, ela prevalece e este baseline torna-se o piso.*
+*Vigente até o companheiro de Segurança ser publicado. Quando ele existir, prevalece e este baseline torna-se o piso.*
 
 | Controle | Exigência mínima |
 | :---- | :---- |
@@ -509,7 +509,7 @@ Na coluna Armazenamento, **Repositório de Documentação** é a ferramenta acor
 | **SLA / SLI / SLO** | Service Level Agreement / Indicator / Objective. |
 | **STRIDE** | Metodologia de threat modeling (Spoofing, Tampering, Repudiation, Information disclosure, DoS, Elevation of privilege). |
 | **TCO** | Total Cost of Ownership: custo total de propriedade (construção + operação recorrente). |
-| **TDD** | Technical Design Document (neste framework; não confundir com Test-Driven Development). |
+| **TDD** | Technical Design Document (neste playbook; não confundir com Test-Driven Development). |
 | **UX** | User Experience: experiência do usuário. |
 | **WCAG** | Web Content Accessibility Guidelines: diretrizes de acessibilidade. |
 
@@ -521,4 +521,4 @@ Na coluna Armazenamento, **Repositório de Documentação** é a ferramenta acor
 - O tailoring por criticidade (Capítulo 8) permite simplificar artefatos; o BRD e o Go/No-Go nunca são dispensados.
 - Dúvidas sobre a aplicação deste processo devem ser direcionadas ao Time de Arquitetura.
 
-*Project Readiness Framework (PRF) · v1.0 · Seção 1: Antes de Começar*
+*Day Zero Playbook · v1.0 · Clear the gates before your first line of code.*

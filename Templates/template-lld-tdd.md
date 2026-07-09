@@ -1,6 +1,6 @@
 # Template: Low-Level Design / Technical Design Document (LLD/TDD)
 
-> **Etapa 3 do Project Readiness Framework (PRF).** Produtor: Dev Lead / Arquiteto. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
+> **Etapa 3 do Day Zero Playbook.** Produtor: Dev Lead / Arquiteto. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
 > Obrigatório o diagrama C4 **L3 (Components)**.
 > DoD: C4 L3, modelo de dados e contratos OpenAPI completos; observabilidade e rollback por componente; estratégia de testes; matriz de rastreabilidade preenchida; reestimativa de esforço registrada. Handoff: um desenvolvedor implementa só com este documento.
 

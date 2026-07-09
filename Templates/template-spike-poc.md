@@ -1,6 +1,6 @@
 # Template: Spike / PoC Report
 
-> **Etapa 0 do Project Readiness Framework (PRF)** *(opcional)*. Produtor: Arquiteto / Dev Lead. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
+> **Etapa 0 do Day Zero Playbook** *(opcional)*. Produtor: Arquiteto / Dev Lead. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
 > Etapa **timeboxed** de redução de incerteza. Gera aprendizado, não código de produção. **O código do spike é descartável**.
 > DoD: pergunta de viabilidade respondida com evidência; recomendação registrada; premissas resultantes prontas para entrar no BRD/HLD.
 
