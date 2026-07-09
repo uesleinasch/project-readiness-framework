@@ -1,6 +1,6 @@
 # Template: Checklist de Go / No-Go
 
-> **Etapa 6 do Project Readiness Framework (PRF).** Produtor: PM / Tech Lead. Aprovação: **Solicitante + Tech Lead Aprovador + Segurança/DPO**.
+> **Etapa 6 do Day Zero Playbook.** Produtor: PM / Tech Lead. Aprovação: **Solicitante + Tech Lead Aprovador + Segurança/DPO**.
 > Todos os itens **obrigatórios**, e os **condicionais aplicáveis**, devem estar "Concluído" para autorizar o início do desenvolvimento. Itens recomendados não bloqueiam, mas precisam de prazo.
 > **Condicional** = obrigatório quando a dimensão correspondente do BRD se aplica (UI, IA); caso contrário, marque N/A.
 > Status: Concluído / Pendente / N/A. Sempre registre a **evidência** (link do artefato).

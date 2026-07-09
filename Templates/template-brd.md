@@ -1,6 +1,6 @@
 # Template: Business Requirements Document (BRD)
 
-> **Etapa 1 do Project Readiness Framework (PRF).** Produtor: Solicitante (+ PM). Aprovação: PM (+ Solicitante para negócio).
+> **Etapa 1 do Day Zero Playbook.** Produtor: Solicitante (+ PM). Aprovação: PM (+ Solicitante para negócio).
 > Preencha os campos `<...>`. Remova as instruções em *itálico* antes de finalizar.
 > Critério de conclusão (DoD): todas as seções preenchidas, RFs/RNFs codificados e mensuráveis, criticidade e classificação de dados definidas, justificativa de negócio assinada.
 

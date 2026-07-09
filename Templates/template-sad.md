@@ -1,6 +1,6 @@
 # Template: Solution Architecture Document (SAD)
 
-> **Etapa 4 do Project Readiness Framework (PRF).** Produtor: Arquiteto. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
+> **Etapa 4 do Day Zero Playbook.** Produtor: Arquiteto. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
 > O SAD é um **documento vivo**: mantido ao longo das Etapas 2-4 e consolidado aqui. **Não é retrabalho**: cada seção é montada a partir dos artefatos anteriores.
 > DoD: 12 seções consolidadas e consistentes com HLD/LLD; ADRs e Registro de Riscos integrados; versionado no Repositório de Documentação (ferramenta acordada entre as partes, registrada no BRD); sem contradições entre seções.
 
@@ -43,7 +43,7 @@
 `<...>`
 
 ## 6. Segurança
-> *Origem: HLD/LLD.* Modelo de ameaças e controles aplicados (baseline de segurança / Seção 2 deste framework).
+> *Origem: HLD/LLD.* Modelo de ameaças e controles aplicados (baseline de segurança / companheiro de Segurança).
 
 `<...>`
 

@@ -12,4 +12,4 @@
 | RISK-005 | Operador de um concessionário acessar pedidos de outro CNPJ (tampering de escopo, STRIDE) | Segurança | Baixa | Alto | Claim de CNPJ no token OIDC + filtro obrigatório na camada de dados; teste de integração dedicado (TC-010) | Tiago Mota | Mitigado |
 | RISK-006 | Homologação do SSO com o time do IdP corporativo atrasar o piloto | Cronograma | Média | Médio | Solicitação de homologação aberta já no Bootstrap; ambiente de staging usa realm de testes do IdP | Rafael Lima | Aberto |
 
-> **Dica aplicada:** nenhum risco Alta × Alta permanece sem mitigação. RISK-001 e RISK-005 (impacto Alto) foram mitigados **antes** do Go/No-Go, como exige o framework.
+> **Dica aplicada:** nenhum risco Alta × Alta permanece sem mitigação. RISK-001 e RISK-005 (impacto Alto) foram mitigados **antes** do Go/No-Go, como exige o playbook.

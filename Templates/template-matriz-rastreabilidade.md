@@ -1,6 +1,6 @@
 # Template: Matriz de Rastreabilidade
 
-> **Artefato transversal (Capítulo 6 do framework).** Garante que todo requisito foi desenhado e será testado (Princípio P3).
+> **Artefato transversal (Capítulo 6 do playbook).** Garante que todo requisito foi desenhado e será testado (Princípio P3).
 > Preenchida ao longo do **HLD/LLD** e validada no **Go/No-Go** (item 11).
 > Regra: **nenhum RF/RNF pode ficar sem componente nem sem caso de teste.**
 

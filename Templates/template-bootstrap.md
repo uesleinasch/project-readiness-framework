@@ -1,6 +1,6 @@
 # Template: Checklist de Bootstrap Técnico
 
-> **Etapa 5 do Project Readiness Framework (PRF).** Produtor: Dev Lead / DevOps. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
+> **Etapa 5 do Day Zero Playbook.** Produtor: Dev Lead / DevOps. Aprovação: Tech Lead Aprovador (produtor ≠ aprovador).
 > **Pode iniciar assim que o HLD (Etapa 2) for aprovado**, em paralelo às Etapas 3 e 4.
 > DoD: repositório e gitflow operacionais; pipeline executa build + secrets scan + SAST/SCA; segredos fora do código; ambientes provisionados ou planejados com tagging de custo.
 
